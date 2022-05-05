@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background: #443f3f;
+}
+
+.bgflex {
+    display: flex;
+    margin-top: 60px;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+textarea {
+    margin-top: 3px;
+    border: 2px solid;
+    border-radius: 7px;
+    height: 40vh;
+    width: 50vw;
+    margin-bottom: 2px;
+    padding: 10px;
+    font-family: cursive;
+    outline: none;
+}
+
+#output {
+    border: 2px solid white;
+    width: 100vw;
+    margin-left: 13px;
+    margin-top: 6px;
+}
+
+.run {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px 15px;
+    outline: none;
+    border: 2px solid rgb(128, 36, 36);
+    border-radius: 7px;
+    background: transparent;
+    font-size: 20px;
+    font-family: cursive;
+    background: rgb(194, 108, 51);
+    cursor: pointer;
+}
+
+.run:hover {
+    border: 2px solid white;
+    background: rgb(128, 36, 36);
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Online HTML, CSS and JavaScript Code Editor</title>
+	<style>
+		body {
+			background: #b1b1b1;
+			color: white;
+			overflow: hidden;
+		}
+
+		textarea {
+			outline: none;
+			border: 5px solid rgb(233, 233, 242);
+			border-radius: 2px;
+			width: 48.5vw;
+			height: 95vh;
+			font-family: cursive;
+		}
+
+		iframe {
+			outline: none;
+			border: 5px solid rgb(233, 233, 242);
+			border-radius: 2px;
+			width: 48.2vw;
+			height: 95.6vh;
+		}
+	</style>
+</head>
+
+<body>
+	<textarea id="editor" onkeyup="editor_result()" cols="30" rows="10"></textarea>
+	<iframe id="result"></iframe>
+</body>
+<script>
+	let editor = document.getElementById("editor")
+	let result = document.getElementById("result")
+	function editor_result() {
+		result.srcdoc = editor.value;
+	}
+</script>
+
+</html>

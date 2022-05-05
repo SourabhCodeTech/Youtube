@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+    align-items: center;
+    background: rgb(53, 4, 53);
+    padding: 10px;
+    color: white;
+}
+
+.navbar_ul{
+    display: flex;
+}
+
+.list_item{
+    margin-right: 20px;
+}
+
+form > input{
+    font-size: 16px;
+    padding: 7px;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 6px;
+    background: #FF4F5B;
+    color: white;
+    font-family: cursive;
+}
+
+form input::placeholder{
+    color: white;
+}
+
+.btn{
+    padding: 6.5px;
+    font-size: 15px;
+    border: 2px solid #c7c6c6;
+    font-family: cursive;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.searchbtn{
+    border: 2px solid #FF4F5B;
+    color: white;
+}
+
+.searchbtn:hover{
+    transition: all 1s linear;
+    background: #FF4F5B;
+    border: 2px solid #f7ff00;
+}
+
+.flex_div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#home{
+    padding: 20px;
+}
+/* 
+.left{
+    width: 49.9vw;
+}
+
+.right{
+    width: 49.9vw;
+} */
+
+/* Colors */
+/* #FF4F5B */
+/* rgb(53, 4, 53) */
+/* #c7c6c6 */
+/* #c52525 */
+/* rgb(3, 3, 80) */
+/* #f7ff00 */
+/* #ff6a00 */
